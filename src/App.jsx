@@ -21,8 +21,11 @@ const Contenedor = styled.div`
 const Imagen = styled.img`
   max-width: 400px;
   width: 80%;
-  margin: 100px auto 0 auto;
+  margin: 30px auto 0 auto;
   display: block;
+  @media (min-width: 992px) {
+    margin: 100px auto 0 auto;;
+  }
 `
 
 const Heading = styled.h1`

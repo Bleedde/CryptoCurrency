@@ -2,11 +2,14 @@ import styled from "@emotion/styled"
 
 const Contenedor = styled.div`
     color: #fff;
-    margin-top: 20px;
     font-family: "Lato", sans-serif;
     display: flex;
     align-items: center;
     gap: 1rem;
+    margin-bottom: 25px;
+    @media (min-width: 992px) {
+    margin-bottom: 0px;
+  }
 `
 
 const Imagen = styled.img`
